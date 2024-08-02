@@ -28,7 +28,7 @@ export default definePlugin({
         name: "sadan"
     }],
     settings,
-    name: "betterConsoleJanitor",
+    name: "BetterConsoleJanitor",
     description: "patches things that console janitor doesnt",
     start(){
         settings.store.dontLog?.split(";").forEach(e => DONT_LOG.add(e));
