@@ -17,7 +17,7 @@ const settings = definePluginSettings({
         }
     },
     disableALL: {
-        description: "disables all of discord logging. \n**NOT RECCOMENDED**",
+        description: "disables all of discord logging.",
         type: OptionType.BOOLEAN,
         default: false
     }
